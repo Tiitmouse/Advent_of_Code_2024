@@ -50,17 +50,6 @@ bool check_difference(vector<int> &report) {
     return true;
 }
 
-//bool diff_second(vector<int> &new_report) {
-//    vector<int> differences;
-//    for (size_t i = 0; i < new_report.size() - 1; i++) {
-//        differences.push_back(abs(new_report[i + 1] - new_report[i]));
-//    }
-//    for (int diff : differences) {
-//        if (diff == 1 || diff == 2 || diff == 3) {continue; } else return false;
-//    }
-//    return true;
-//}
-
 bool problem_dampener(vector<int> &report) {
 
     for (size_t i = 0; i < report.size(); i++) {

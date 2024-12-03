@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Day_01 Day_01/main.cpp)
 add_executable(Day_02 Day_02/main.cpp)
+add_executable(Day_03 Day_03/main.cpp)
